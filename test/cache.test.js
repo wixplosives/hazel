@@ -37,6 +37,8 @@ describe('Cache', function () {
   })
 
   it('should refresh the cache', async () => {
+    jest.setTimeout(30000);
+
     const config = {
       account: 'zeit',
       repository: 'hyper',
