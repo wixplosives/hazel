@@ -3,7 +3,7 @@
 const Cache = require('../lib/cache')
 
 describe('Cache', function () {
-  this.timeout = 30000
+  this.timeout = 15000
   it('should throw when account is not defined', () => {
     expect(() => {
       const config = { repository: 'hyper' }
