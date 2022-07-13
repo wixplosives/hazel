@@ -61,7 +61,5 @@ describe('Cache', function () {
 
     const cache = new Cache(config)
     const storage = await cache.loadCache()
-
-    console.log(storage.platforms.zip)
   })
 })
